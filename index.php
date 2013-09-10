@@ -24,7 +24,7 @@
 							$sFullImagePath = $sAppPath . $sImageSubPath . $sImage;
 
 							if( is_valid_image( $sFullImagePath ) ) { ?>
-								<li><img src="<?php echo $sImageSubPath . $sImage; ?>"/></li>
+								<li style="background-image: url( '/<?php echo $sImageSubPath . $sImage; ?>' );"></li>
 							<?php }
 
 						}

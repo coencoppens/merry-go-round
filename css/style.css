@@ -1,6 +1,7 @@
 body, html, * {
 	padding: 0;
 	margin: 0;
+	height: 100%;
 }
 
 .panoramas {
@@ -10,10 +11,13 @@ body, html, * {
 
 .panoramas li {
 	list-style: none;
+	width: 100%;
+	height: 100%;
 }
 
 .panoramas ul li {
 	float: left;
+	background-size: cover;
 }
 
 	.panoramas .dots {
