@@ -1,0 +1,41 @@
+body, html, * {
+	padding: 0;
+	margin: 0;
+}
+
+.panoramas {
+	position: relative;
+	overflow: auto;
+}
+
+.panoramas li {
+	list-style: none;
+}
+
+.panoramas ul li {
+	float: left;
+}
+
+	.panoramas .dots {
+		position: absolute;
+		top: 20px;
+		right: 20px;
+	}
+
+		.panoramas .dots li {
+			display: inline-block;
+			width: 10px;
+			height: 10px;
+			margin: 0 4px;
+			text-indent: -999em;
+			border: 2px solid #acacac;
+			background-color: #acacac;
+			border-radius: 6px;
+			cursor: pointer;
+			opacity: .4;
+		}
+
+		.panoramas .dots li.active {
+			background: #fff;
+			opacity: 1;
+		}
